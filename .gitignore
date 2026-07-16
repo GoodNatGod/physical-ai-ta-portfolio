@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Houdini
+*.hip.lock
+*.hiplc
+backup/
+*.bgeo
+*.bgeo.sc
+*.sim
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files (USD/Bgeo are binary heavy)
+*.usdc
+*.usda
+*.abc
