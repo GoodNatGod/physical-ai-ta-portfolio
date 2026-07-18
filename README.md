@@ -1,25 +1,29 @@
-# Physical AI Technical Artist Portfolio
+# 从SLG策划 → UE5写实大世界技术策划 → 物理AI技术美术
 
-> 🎯 从SLG策划转型物理AI技术美术的学习记录与项目作品
+> 🎯 两段式转型：先内部转岗到公司UE5写实大世界项目的技术策划岗位（对标GTA），积累大世界+物理+程序化经验后，再跳槽到Physical AI平台
 >
-> 🗓️ 学习周期：2026 Q3 – 2028 Q4
+> 🗓️ 学习周期：2026 Q3 – 2030
 >
-> 🏢 目标岗位：Physical AI 公司技术美术（仿真方向）
+> 🏢 当前目标：Phase A —— 冲刺UE5技术策划，争取2027年底内部转岗
 
 ---
 
 ## 🗺️ 学习路线
 
 ```
-Phase 1 (2026Q3-2027Q1)    Phase 2 (2027Q2-2028Q1)    Phase 3 (2028Q2-2028Q4)
-    TA基础构建        →        物理仿真纵深         →       Physical AI专精
+Phase A (2026Q3-2027Q4)    Phase B (2028-2029)    Phase C (2029-2030)
+  UE5技术策划冲刺        →     大世界实战沉淀      →    物理AI跳跃
+  A1→A2→A3→A4→A5→A6
 ```
 
 | 阶段 | 时间 | 核心任务 | 当前进度 |
 |---|---|---|---|
-| Phase 1 | 2026Q3–2027Q1 | TA硬技能：Python/线代/Houdini 21/Shader/USD | 🟢 第1周 |
-| Phase 2 | 2027Q2–2028Q1 | 物理引擎原理：刚体/碰撞/约束/软体 + C++ | ⬜ 未开始 |
-| Phase 3 | 2028Q2–2028Q4 | Isaac Sim 6.0、Genesis World、Sim2Real管线 | ⬜ 未开始 |
+| **A1** | 2026Q3 (7-9月) | UE5基础+蓝图系统 | 🟢 第1周 |
+| A2 | 2026Q4 (10-12月) | UE5 C++进阶 | ⬜ |
+| A3 | 2027Q1 (1-3月) | 大世界系统(World Partition/Data Layer) | ⬜ |
+| A4 | 2027Q2 (4-6月) | PCG程序化生成管线 | ⬜ |
+| A5 | 2027Q3 (7-9月) | 物理交互(Chaos)+3C系统 | ⬜ |
+| A6 | 2027Q4 (10-12月) | 毕业Demo + 内部转岗 | ⬜ |
 
 ---
 
@@ -27,18 +31,16 @@ Phase 1 (2026Q3-2027Q1)    Phase 2 (2027Q2-2028Q1)    Phase 3 (2028Q2-2028Q4)
 
 | 技能 | 当前水平 | 目标水平 | 进度 |
 |---|---|---|---|
-| 线性代数 | 🟢 入门中 | 能推导3D变换与惯性张量 | ██░░░░░░░░ 5% |
+| UE5编辑器 | ⬜ 零基础 | 熟练操作+资产管理 | ░░░░░░░░░░ 0% |
+| 蓝图(Blueprint) | ⬜ 零基础 | 精通，能独立实现复杂玩法 | ░░░░░░░░░░ 0% |
+| UE5 C++ | ⬜ 零基础 | 能读写引擎层代码 | ░░░░░░░░░░ 0% |
+| World Partition | ⬜ 零基础 | 管理GTA级大世界 | ░░░░░░░░░░ 0% |
+| PCG Framework | ⬜ 零基础 | 程序化城市生成 | ░░░░░░░░░░ 0% |
+| Chaos物理 | ⬜ 零基础 | 破碎/布料/刚体交互 | ░░░░░░░░░░ 0% |
+| 3C系统 | ⬜ 零基础 | 完整角色控制管线 | ░░░░░░░░░░ 0% |
+| Mass/NPC AI | ⬜ 零基础 | 大规模NPC行为模拟 | ░░░░░░░░░░ 0% |
+| 线性代数 | 🟢 入门中 | 3D变换与惯性张量 | ██░░░░░░░░ 5% |
 | Python | 🟡 有基础 | 自动化管线脚本 | ████░░░░░░ 20% |
-| GLSL/HLSL | ⬜ 零基础 | 能写PBR光照Shader | ░░░░░░░░░░ 0% |
-| Houdini | 🟢 入门中 | 程序化资产管线+USD导出 | ██░░░░░░░░ 5% |
-| USD | ⬜ 零基础 | 场景图+物理Schema | ░░░░░░░░░░ 0% |
-| 刚体动力学 | ⬜ 零基础 | 能推导运动方程 | ░░░░░░░░░░ 0% |
-| 碰撞检测 | ⬜ 零基础 | 手写GJK | ░░░░░░░░░░ 0% |
-| 约束求解 | ⬜ 零基础 | 理解Sequential Impulse | ░░░░░░░░░░ 0% |
-| C++ | ⬜ 零基础 | 能阅读PhysX源码 | ░░░░░░░░░░ 0% |
-| Isaac Sim | ⬜ 零基础 | 全栈仿真场景 | ░░░░░░░░░░ 0% |
-| MuJoCo | ⬜ 零基础 | MJCF建模+接触动力学 | ░░░░░░░░░░ 0% |
-| Genesis World | ⬜ 零基础 | IPC求解器使用 | ░░░░░░░░░░ 0% |
 
 ---
 
@@ -47,20 +49,19 @@ Phase 1 (2026Q3-2027Q1)    Phase 2 (2027Q2-2028Q1)    Phase 3 (2028Q2-2028Q4)
 ```
 physical-ai-ta-portfolio/
 ├── README.md                 # 你正在看这个
-├── week1/                    # 第1周代码练习
-├── phase1-houdini/           # Phase 1 毕业项目：程序化物理资产工厂
-│   ├── hda/                  # Houdini HDA文件
-│   ├── usd/                  # 导出USD示例
-│   └── scripts/              # Python管线脚本
-├── phase2-mini-engine/       # Phase 2 毕业项目：Mini Physics Engine
-│   ├── src/                  # 物理引擎源码
-│   ├── tests/                # 单元测试
-│   └── demos/                # 可视化demo
-├── phase3-sim2real/          # Phase 3 毕业项目：Sim2Real仿真场景
-│   ├── isaac-scenes/         # Isaac Sim场景文件
-│   ├── dr-pipeline/          # Domain Randomization管线
-│   └── docs/                 # 物理参数白皮书+Sim2Real分析
-└── blog/                     # 技术博客
+├── week1/                    # 线代+Python练习
+├── blog/                     # 技术博客
+│   └── 向量运算深度解析.md
+├── ue5/                      # ★ UE5技术策划学习
+│   ├── A1-basics/           # 编辑器+蓝图基础
+│   ├── A2-cpp/              # C++进阶
+│   ├── A3-world/            # 大世界系统
+│   ├── A4-pcg/              # 程序化生成
+│   ├── A5-physics-3c/       # 物理+3C
+│   └── A6-demo/             # 毕业项目
+├── phase1-houdini/           # （后续物理AI阶段）Houdini管线
+├── phase2-mini-engine/       # （后续物理AI阶段）Mini物理引擎
+└── phase3-sim2real/          # （后续物理AI阶段）Sim2Real
 ```
 
 ---
@@ -69,15 +70,16 @@ physical-ai-ta-portfolio/
 
 | 日期 | 主题 | 标签 |
 |---|---|---|
-| *待开始* | — | — |
+| 2026-07-14 | [向量运算深度解析](blog/向量运算深度解析.md) | #数学 #线性代数 |
 
 ---
 
 ## 🔗 相关资源
 
-- 📋 [完整学习路线图](https://docs.qq.com/doc/DR05EZUx2V0VSaUx0)
-- 📊 [学习日志数据库（腾讯文档）](https://docs.qq.com/smartsheet/DR1JsR2tqTGNYeGNT)
+- 📋 [UE5→物理AI两段式路线图](https://docs.qq.com/doc/DR05EZUx2V0VSaUx0)
+- 📊 [学习日志数据库](https://docs.qq.com/smartsheet/DR1JsR2tqTGNYeGNT)
+- 🎮 [Epic官方文档](https://dev.epicgames.com/documentation/zh-cn/unreal-engine/)
 
 ---
 
-> ⚡ *最后更新：2026-07-14 · 第1周*
+> ⚡ *最后更新：2026-07-18 · Phase A 第1周*
